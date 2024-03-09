@@ -69,7 +69,7 @@ if(isset($_POST['delete'])){
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
    <!-- font awesome cdn link  -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="../css/admin_style.css">
@@ -120,7 +120,7 @@ if(isset($_POST['delete'])){
       <h3 class="name"><?= $fetch_property['property_name']; ?></h3>
       <p class="location"><i class="fas fa-map-marker-alt"></i><span><?= $fetch_property['address']; ?></span></p>
       <div class="info">
-         <p><i class="fas fa-indian-rupee-sign"></i><span><?= $fetch_property['price']; ?></span></p>
+         <p><span><?= $fetch_property['price']; ?></span></p>
          <p><i class="fas fa-user"></i><span><?= $fetch_user['name']; ?></span></p>
          <p><i class="fas fa-phone"></i><a href="tel:1234567890"><?= $fetch_user['number']; ?></a></p>
          <p><i class="fas fa-building"></i><span><?= $fetch_property['type']; ?></span></p>
@@ -131,7 +131,7 @@ if(isset($_POST['delete'])){
       <div class="flex">
          <div class="box">
             <p><i>rooms :</i><span><?= $fetch_property['bhk']; ?> BHK</span></p>
-            <p><i>deposit amount : </i><span><span class="fas fa-indian-rupee-sign" style="margin-right: .5rem;"></span><?= $fetch_property['deposite']; ?></span></p>
+            <p><i>deposit amount : </i><span><span class="fas  fa-money-bill" style="margin-right: .5rem;"></span><?= $fetch_property['deposite']; ?></span></p>
             <p><i>status :</i><span><?= $fetch_property['status']; ?></span></p>
             <p><i>bedroom :</i><span><?= $fetch_property['bedroom']; ?></span></p>
             <p><i>bathroom :</i><span><?= $fetch_property['bathroom']; ?></span></p>

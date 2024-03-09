@@ -21,7 +21,7 @@ include 'components/save_send.php';
    <title>Home</title>
 
    <!-- font awesome cdn link  -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/> 
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
@@ -42,7 +42,7 @@ include 'components/save_send.php';
          <h3>find your perfect home</h3>
          <div class="box">
             <p>enter location <span>*</span></p>
-            <input type="text" name="h_location" required maxlength="100" placeholder="enter city name" class="input">
+            <input type="text" name="h_location" required maxlength="100" eholder="enter city name" class="input">
          </div>
          <div class="flex">
             <div class="box">
@@ -62,40 +62,35 @@ include 'components/save_send.php';
                </select>
             </div>
             <div class="box">
-               <p>maximum budget <span>*</span></p>
+               <p>minimum budget <span>*</span></p>
                <select name="h_min" class="input" required>
-                  <option value="5000">5k</option>
+               <option value="5000">5k</option>
                   <option value="10000">10k</option>
                   <option value="15000">15k</option>
                   <option value="20000">20k</option>
                   <option value="30000">30k</option>
                   <option value="40000">40k</option>
-                  <option value="40000">40k</option>
                   <option value="50000">50k</option>
-                  <option value="100000">1 lac</option>
-                  <option value="500000">5 lac</option>
-                  <option value="1000000">10 lac</option>
-                  <option value="2000000">20 lac</option>
-                  <option value="3000000">30 lac</option>
-                  <option value="4000000">40 lac</option>
-                  <option value="4000000">40 lac</option>
-                  <option value="5000000">50 lac</option>
-                  <option value="6000000">60 lac</option>
-                  <option value="7000000">70 lac</option>
-                  <option value="8000000">80 lac</option>
-                  <option value="9000000">90 lac</option>
-                  <option value="10000000">1 Cr</option>
-                  <option value="20000000">2 Cr</option>
-                  <option value="30000000">3 Cr</option>
-                  <option value="40000000">4 Cr</option>
-                  <option value="50000000">5 Cr</option>
-                  <option value="60000000">6 Cr</option>
-                  <option value="70000000">7 Cr</option>
-                  <option value="80000000">8 Cr</option>
-                  <option value="90000000">9 Cr</option>
-                  <option value="100000000">10 Cr</option>
-                  <option value="150000000">15 Cr</option>
-                  <option value="200000000">20 Cr</option>
+                  <option value="100000">100k</option>                                 
+                  <option value="200000">200k</option>
+                  <option value="300000">300k</option>
+                  <option value="400000">400k</option>
+                  <option value="400000">400k</option>
+                  <option value="500000">500k</option>
+                  <option value="600000">600k</option>
+                  <option value="700000">700k</option>
+                  <option value="800000">800k</option>
+                  <option value="900000">900k</option>
+                  <option value="1000000">1 mill</option>
+                  <option value="2000000">2 mill</option>
+                  <option value="3000000">3 mill</option>
+                  <option value="4000000">4 mill</option>
+                  <option value="5000000">5 mill</option>
+                  <option value="6000000">6 mill</option>
+                  <option value="7000000">7 mill</option>
+                  <option value="8000000">8 mill</option>
+                  <option value="9000000">9 mill</option>
+                  <option value="10000000">10 mill</option>  
                </select>
             </div>
             <div class="box">
@@ -107,32 +102,27 @@ include 'components/save_send.php';
                   <option value="20000">20k</option>
                   <option value="30000">30k</option>
                   <option value="40000">40k</option>
-                  <option value="40000">40k</option>
                   <option value="50000">50k</option>
-                  <option value="100000">1 lac</option>
-                  <option value="500000">5 lac</option>
-                  <option value="1000000">10 lac</option>
-                  <option value="2000000">20 lac</option>
-                  <option value="3000000">30 lac</option>
-                  <option value="4000000">40 lac</option>
-                  <option value="4000000">40 lac</option>
-                  <option value="5000000">50 lac</option>
-                  <option value="6000000">60 lac</option>
-                  <option value="7000000">70 lac</option>
-                  <option value="8000000">80 lac</option>
-                  <option value="9000000">90 lac</option>
-                  <option value="10000000">1 Cr</option>
-                  <option value="20000000">2 Cr</option>
-                  <option value="30000000">3 Cr</option>
-                  <option value="40000000">4 Cr</option>
-                  <option value="50000000">5 Cr</option>
-                  <option value="60000000">6 Cr</option>
-                  <option value="70000000">7 Cr</option>
-                  <option value="80000000">8 Cr</option>
-                  <option value="90000000">9 Cr</option>
-                  <option value="100000000">10 Cr</option>
-                  <option value="150000000">15 Cr</option>
-                  <option value="200000000">20 Cr</option>
+                  <option value="100000">100k</option>                                 
+                  <option value="200000">200k</option>
+                  <option value="300000">300k</option>
+                  <option value="400000">400k</option>
+                  <option value="400000">400k</option>
+                  <option value="500000">500k</option>
+                  <option value="600000">600k</option>
+                  <option value="700000">700k</option>
+                  <option value="800000">800k</option>
+                  <option value="900000">900k</option>
+                  <option value="1000000">1 mill</option>
+                  <option value="2000000">2 mill</option>
+                  <option value="3000000">3 mill</option>
+                  <option value="4000000">4 mill</option>
+                  <option value="5000000">5 mill</option>
+                  <option value="6000000">6 mill</option>
+                  <option value="7000000">7 mill</option>
+                  <option value="8000000">8 mill</option>
+                  <option value="9000000">9 mill</option>
+                  <option value="10000000">10 mill</option>                  
                </select>
             </div>
          </div>
@@ -267,7 +257,7 @@ include 'components/save_send.php';
             </div>
          </div>
          <div class="box">
-            <div class="price"><i class="fas fa-indian-rupee-sign"></i><span><?= $fetch_property['price']; ?></span></div>
+            <div class="price"><i class="fas  fa-money-bill"></i><span><?= $fetch_property['price']; ?></span></div>
             <h3 class="name"><?= $fetch_property['property_name']; ?></h3>
             <p class="location"><i class="fas fa-map-marker-alt"></i><span><?= $fetch_property['address']; ?></span></p>
             <div class="flex">

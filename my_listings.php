@@ -64,7 +64,8 @@ if(isset($_POST['delete'])){
    <title>my listings</title>
 
    <!-- font awesome cdn link  -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/> -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
@@ -119,7 +120,7 @@ if(isset($_POST['delete'])){
          <p><i class="far fa-image"></i><span><?= $total_images; ?></span></p> 
          <img src="uploaded_files/<?= $fetch_property['image_01']; ?>" alt="">
       </div>
-      <div class="price"><i class="fas fa-indian-rupee-sign"></i><span><?= $fetch_property['price']; ?></span></div>
+      <div class="price"><i class="fas  fa-money-bill"></i><span><?= $fetch_property['price']; ?></span></div>
       <h3 class="name"><?= $fetch_property['property_name']; ?></h3>
       <p class="location"><i class="fas fa-map-marker-alt"></i><span><?= $fetch_property['address']; ?></span></p>
       <div class="flex-btn">

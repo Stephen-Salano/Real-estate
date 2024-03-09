@@ -60,7 +60,7 @@ if(isset($_POST['delete'])){
    <title>Listings</title>
 
    <!-- font awesome cdn link  -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="../css/admin_style.css">
@@ -136,7 +136,7 @@ if(isset($_POST['delete'])){
          <p><i class="far fa-image"></i><span><?= $total_images; ?></span></p>
          <img src="../uploaded_files/<?= $fetch_listing['image_01']; ?>" alt="">
       </div>
-      <p class="price"><i class="fas fa-indian-rupee-sign"></i><?= $fetch_listing['price']; ?></p>
+      <p class="price"><i class="fas fa-dollar-sign"></i><?= $fetch_listing['price']; ?></p>
       <h3 class="name"><?= $fetch_listing['property_name']; ?></h3>
       <p class="location"><i class="fas fa-map-marker-alt"></i><?= $fetch_listing['address']; ?></p>
       <form action="" method="POST">
