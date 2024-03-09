@@ -25,11 +25,11 @@ Follow these steps to set up the project on your local machine:
    - Install [Git](https://git-scm.com/downloads)
    - Configure Your Identity
    - Open terminal and insert
-   > git config --global user.name "Your Name"
+    > git config --global user.name "Your Name"
    - Set your email address globally (also used for all repositories) using the following command on the terminal:
-   > git config --global user.email "<you@example.com>"
+    > git config --global user.email "<you@example.com>"
    - Verify Installation on terminal:
-   > git --version
+    > git --version
    - Create a GitHub Account:
         If you don’t have one already, create an account on GitHub (<https://github.com/signup>).
 2. **Cloning the repository**:
