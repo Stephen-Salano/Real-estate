@@ -58,3 +58,31 @@ Follow these steps to set up the project on your local machine:
     - Everytime you want to run the project open xampp and make sure Apache and mySQL is running
     - On the browser enter the path to the project
         > <http://localhost/project/>
+
+## Contribution
+
+Follow these steps if you want to contribute or change anything to the project
+
+1. **Create a git branch**:
+    - For the purposes of contributing to the project create a branch
+    - Navigate to the directory of the project on terminal
+    > cd ..\ ..\xampp\htdocs\Real-estate
+    - Create a new branch
+    > git checkout -b my-feature-branch (Replace my-feature-branch with a descriptive name for your branch)
+    - This will create a branch and put you in your branch
+2. **Editing files**
+    - Edit files or comment code 
+    - Open terminal and navigate to the project folder
+    > cd ..\ ..\xampp\htdocs\Real-estate
+    - Open the project folder on vs code via the terminal using:
+    > code .
+    - This will open the project folder on vs code
+    - Edit code you wish to change or commit
+    - On the terminal check git status using
+    > git status
+    - Add changes to staging area
+    > git add -A
+    - Commit changes
+    > git commit -m "commit message here or what changes you have made"
+    -Push changes to origin main
+    > git push origin my-feature branch (replace my-feature branch with the name of your branch)
