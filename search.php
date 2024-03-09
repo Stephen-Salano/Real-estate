@@ -75,77 +75,59 @@ include 'components/save_send.php';
                </select>
             </div>
             <div class="box">
-               <p>maximum budget</p>
+               <p>minimum budget</p>
                <select name="min" class="input" required>
-                  <option value="5000">5k</option>
-                  <option value="10000">10k</option>
-                  <option value="15000">15k</option>
-                  <option value="20000">20k</option>
-                  <option value="30000">30k</option>
-                  <option value="40000">40k</option>
+               <option value="30000">30k</option>
                   <option value="40000">40k</option>
                   <option value="50000">50k</option>
-                  <option value="100000">1 lac</option>
-                  <option value="500000">5 lac</option>
-                  <option value="1000000">10 lac</option>
-                  <option value="2000000">20 lac</option>
-                  <option value="3000000">30 lac</option>
-                  <option value="4000000">40 lac</option>
-                  <option value="4000000">40 lac</option>
-                  <option value="5000000">50 lac</option>
-                  <option value="6000000">60 lac</option>
-                  <option value="7000000">70 lac</option>
-                  <option value="8000000">80 lac</option>
-                  <option value="9000000">90 lac</option>
-                  <option value="10000000">1 Cr</option>
-                  <option value="20000000">2 Cr</option>
-                  <option value="30000000">3 Cr</option>
-                  <option value="40000000">4 Cr</option>
-                  <option value="50000000">5 Cr</option>
-                  <option value="60000000">6 Cr</option>
-                  <option value="70000000">7 Cr</option>
-                  <option value="80000000">8 Cr</option>
-                  <option value="90000000">9 Cr</option>
-                  <option value="100000000">10 Cr</option>
-                  <option value="150000000">15 Cr</option>
-                  <option value="200000000">20 Cr</option>
+                  <option value="100000">100k</option>                                 
+                  <option value="200000">200k</option>
+                  <option value="300000">300k</option>
+                  <option value="400000">400k</option>
+                  <option value="400000">400k</option>
+                  <option value="500000">500k</option>
+                  <option value="600000">600k</option>
+                  <option value="700000">700k</option>
+                  <option value="800000">800k</option>
+                  <option value="900000">900k</option>
+                  <option value="1000000">1 mill</option>
+                  <option value="2000000">2 mill</option>
+                  <option value="3000000">3 mill</option>
+                  <option value="4000000">4 mill</option>
+                  <option value="5000000">5 mill</option>
+                  <option value="6000000">6 mill</option>
+                  <option value="7000000">7 mill</option>
+                  <option value="8000000">8 mill</option>
+                  <option value="9000000">9 mill</option>
+                  <option value="10000000">10 mill</option>
                </select>
             </div>
             <div class="box">
                <p>maximum budget</p>
                <select name="max" class="input" required>
-                  <option value="5000">5k</option>
-                  <option value="10000">10k</option>
-                  <option value="15000">15k</option>
-                  <option value="20000">20k</option>
-                  <option value="30000">30k</option>
-                  <option value="40000">40k</option>
+               <option value="30000">30k</option>
                   <option value="40000">40k</option>
                   <option value="50000">50k</option>
-                  <option value="100000">1 lac</option>
-                  <option value="500000">5 lac</option>
-                  <option value="1000000">10 lac</option>
-                  <option value="2000000">20 lac</option>
-                  <option value="3000000">30 lac</option>
-                  <option value="4000000">40 lac</option>
-                  <option value="4000000">40 lac</option>
-                  <option value="5000000">50 lac</option>
-                  <option value="6000000">60 lac</option>
-                  <option value="7000000">70 lac</option>
-                  <option value="8000000">80 lac</option>
-                  <option value="9000000">90 lac</option>
-                  <option value="10000000">1 Cr</option>
-                  <option value="20000000">2 Cr</option>
-                  <option value="30000000">3 Cr</option>
-                  <option value="40000000">4 Cr</option>
-                  <option value="50000000">5 Cr</option>
-                  <option value="60000000">6 Cr</option>
-                  <option value="70000000">7 Cr</option>
-                  <option value="80000000">8 Cr</option>
-                  <option value="90000000">9 Cr</option>
-                  <option value="100000000">10 Cr</option>
-                  <option value="150000000">15 Cr</option>
-                  <option value="200000000">20 Cr</option>
+                  <option value="100000">100k</option>                                 
+                  <option value="200000">200k</option>
+                  <option value="300000">300k</option>
+                  <option value="400000">400k</option>
+                  <option value="400000">400k</option>
+                  <option value="500000">500k</option>
+                  <option value="600000">600k</option>
+                  <option value="700000">700k</option>
+                  <option value="800000">800k</option>
+                  <option value="900000">900k</option>
+                  <option value="1000000">1 mill</option>
+                  <option value="2000000">2 mill</option>
+                  <option value="3000000">3 mill</option>
+                  <option value="4000000">4 mill</option>
+                  <option value="5000000">5 mill</option>
+                  <option value="6000000">6 mill</option>
+                  <option value="7000000">7 mill</option>
+                  <option value="8000000">8 mill</option>
+                  <option value="9000000">9 mill</option>
+                  <option value="10000000">10 mill</option>
                </select>
             </div>
             <div class="box">
