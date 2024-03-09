@@ -160,15 +160,20 @@ include 'components/save_send.php';
 if(isset($_POST['h_search'])){
 
    $h_location = $_POST['h_location'];
-   $h_location = filter_var($h_location, FILTER_SANITIZE_STRING);
+   $h_location = htmlspecialchars($h_location, ENT_QUOTES, 'UTF-8');
+
    $h_type = $_POST['h_type'];
-   $h_type = filter_var($h_type, FILTER_SANITIZE_STRING);
+   $h_type = htmlspecialchars($h_type, ENT_QUOTES, 'UTF-8');
+
    $h_offer = $_POST['h_offer'];
-   $h_offer = filter_var($h_offer, FILTER_SANITIZE_STRING);
+   $h_offer = htmlspecialchars($h_offer, ENT_QUOTES, 'UTF-8');
+
    $h_min = $_POST['h_min'];
-   $h_min = filter_var($h_min, FILTER_SANITIZE_STRING);
+   $h_min = htmlspecialchars($h_min, ENT_QUOTES, 'UTF-8');
+
    $h_max = $_POST['h_max'];
-   $h_max = filter_var($h_max, FILTER_SANITIZE_STRING);
+   $h_max = htmlspecialchars($h_max, ENT_QUOTES, 'UTF-8');
+
 
    $select_properties = $conn->prepare("SELECT * FROM `property` WHERE address LIKE '%{$h_location}%' AND type LIKE '%{$h_type}%' AND offer LIKE '%{$h_offer}%' AND price BETWEEN $h_min AND $h_max ORDER BY date DESC");
    $select_properties->execute();
@@ -176,7 +181,8 @@ if(isset($_POST['h_search'])){
 }elseif(isset($_POST['filter_search'])){
 
    $location = $_POST['location'];
-   $location = filter_var($location, FILTER_SANITIZE_STRING);
+   $location = htmlspecialchars($location, ENT_QUOTES, 'UTF-8');
+
    $type = $_POST['type'];
    $type = htmlspecialchars($type, ENT_QUOTES, 'UTF-8');
    $offer = $_POST['offer'];
@@ -184,9 +190,11 @@ if(isset($_POST['h_search'])){
    $bhk = $_POST['bhk'];
    $bhk = htmlspecialchars($bhk, ENT_QUOTES, 'UTF-8');
    $min = $_POST['min'];
-   $min = filter_var($min, FILTER_SANITIZE_STRING);
+   $min = htmlspecialchars($min, ENT_QUOTES, 'UTF-8');
+
    $max = $_POST['max'];
-   $max = filter_var($max, FILTER_SANITIZE_STRING);
+   $max = htmlspecialchars($max, ENT_QUOTES, 'UTF-8');
+
    $status = $_POST['status'];
    $status = htmlspecialchars($status, ENT_QUOTES, 'UTF-8');
    $furnished = $_POST['furnished'];
